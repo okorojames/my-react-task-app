@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+:root{
+  --light-one: #d7dcf4;
+  --light-two: #8695dd;
+  --dark-one: #162050;
+  --dark-two: #0b1028;
+}
+*::before, *::after,*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body{
+ font-family: 'Rubik', sans-serif;
+  font-size: 1.8rem;
+}
+.App{
+  background: var(--light-one);
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+}
+.nav-logo{
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.task-btn{
+  transition: all .5s ease-in-out;
+  background: rgb(8, 91, 8);
+  outline: none;
+  border: none;
+  padding: .8rem 1.2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--light-one);
+  border-radius: .8rem;
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+  margin-top: 4rem;
+  background: var(--dark-two);
+  padding: 2rem 1rem;
+  color: var(--light-one);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-about-link{
+  color: var(--light-two);
+}
