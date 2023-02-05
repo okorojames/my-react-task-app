@@ -1,10 +1,11 @@
 import React from 'react'
+import Button from './Button'
 
 const Header = () => {
   return (
     <nav>
       <div className="nav-logo">Task Tracker</div>
-      <button className='task-btn'>Add Task</button>
+      <Button/>
     </nav>
   )
 }
